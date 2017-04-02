@@ -12,37 +12,28 @@ Python dependencies:
 
 Frontend dependencies (from the app folder):
 
-    ```
     npm install
-    ```
 
 ## Local run
 
 Run the Vue.js frontend (from the app folder):
 
-    ```
     npm run dev
-    ```
 
 Run the backend:
 
-    ```
     dev_appserver.py .
-    ```
 
 ## Deploy
 
 Build the Vue.js frontend (from the app folder):
 
-    ```
     npm run build
-    ```
 
 Deploy the application on AppEngine:
 
-    ```
     gcloud app deploy app.yaml
-    ```
 
 ##License
+
 [MIT](http://opensource.org/licenses/MIT)
