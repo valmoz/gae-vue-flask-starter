@@ -34,6 +34,6 @@ Deploy the application on AppEngine:
 
     gcloud app deploy app.yaml
 
-##License
+## License
 
 [MIT](http://opensource.org/licenses/MIT)
