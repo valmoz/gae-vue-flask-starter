@@ -1,27 +1,5 @@
-runtime: python27
-api_version: 1
-threadsafe: true
+runtime: python37
 
 handlers:
 - url: /static
   static_dir: app/dist/static
-
-- url: /.*
-  script: main.app
-
-
-
-skip_files:
-# default
-- ^(.*/)?#.*#$
-- ^(.*/)?.*~$
-- ^(.*/)?.*\.py[co]$
-- ^(.*/)?.*/RCS/.*$
-- ^(.*/)?\..*$
-# end of default
-- ^app/node_modules$
-- ^(.*/)?\.vue$
-- ^(.*/)?\LICENSE$
-- ^(.*/)?\package.json$
-- ^(.*/)?\README.md$
-- ^(.*/)?\webpack.config.js$
