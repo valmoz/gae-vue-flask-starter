@@ -22,7 +22,7 @@ Run the Vue.js frontend (from the app folder):
 
 Run the backend:
 
-    dev_appserver.py .
+    python3 main.py
 
 ## Deploy
 
@@ -32,7 +32,7 @@ Build the Vue.js frontend (from the app folder):
 
 Deploy the application on AppEngine:
 
-    gcloud app deploy app.yaml
+    gcloud app deploy
 
 ## License
 
