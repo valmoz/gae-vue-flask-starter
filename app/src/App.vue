@@ -1,21 +1,12 @@
 <template>
   <div id="app">
-    <page-wrapper>
-      <router-view></router-view>
-    </page-wrapper>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-import pageWrapper from './components/PageWrapper.vue'
-
-export default {
-  name: 'app',
-  components: {
-    pageWrapper
-  }
-}
-</script>
 
 <style>
 #app {

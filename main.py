@@ -34,6 +34,7 @@ def hello():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def vue_client(path):
+    logging.info(path)
     if os.getenv('GAE_ENV', '').startswith('standard'):
         return render_template('index.html')
     else:

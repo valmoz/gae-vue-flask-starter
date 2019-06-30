@@ -1,5 +1,11 @@
 runtime: python37
 
 handlers:
-- url: /static
-  static_dir: app/dist/static
+- url: /css
+  static_dir: app/dist/css
+
+- url: /img
+  static_dir: app/dist/img
+  
+- url: /js
+  static_dir: app/dist/js
